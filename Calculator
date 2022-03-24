@@ -1,0 +1,36 @@
+import time
+operator = input("What you want to do? (*, %, +, -) -> ")
+
+if operator == "*":
+    n1 = int(input("n1 -> "))
+    n2 = int(input("n2 -> "))
+    print("Answer -> ", n1 * n2)
+    time.sleep(2)
+
+if operator == "%":
+    n1 = int(input("n1 -> "))
+    n2 = int(input("n2 -> "))
+    print("Answer -> ", n1 % n2)
+    time.sleep(2)
+
+if operator == "+":
+    n1 = int(input("n1 -> "))
+    n2 = int(input("n2 -> "))
+    print("Answer -> ", n1 + n2)
+    time.sleep(2)
+
+if operator == "-":
+    n1 = int(input("n1 -> "))
+    n2 = int(input("n2 -> "))
+    print("Answer -> ", n1 - n2)
+    time.sleep(2)
+
+if operator == "/":
+    n1 = int(input("n1 -> "))
+    n2 = int(input("n2 -> "))
+    print("Answer -> ", n1 / n2)
+    time.sleep(2)
+
+else:
+    print("Error! Please choose one of theese symbols (*, %, +, -)")
+    time.sleep(2)
